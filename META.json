@@ -58,5 +58,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Spellunker-Perl/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Spellunker-Perl",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Spellunker-Perl.git",
+         "web" : "https://github.com/tokuhirom/Spellunker-Perl"
+      }
+   },
    "version" : "v0.3.1"
 }

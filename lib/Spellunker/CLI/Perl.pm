@@ -9,6 +9,8 @@ use Term::ANSIColor qw(colored);
 require Win32::Console::ANSI if $^O eq 'MSWin32';
 use PPI;
 
+use version; our $VERSION = version->declare("v0.3.1");
+
 sub new {
     my $class = shift;
     bless {
