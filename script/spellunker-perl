@@ -15,6 +15,10 @@ spellunker-perl - Spelling checker
     % spellunker-perl path/to/file
     % spellunker-perl < path/to/file
 
+    Options:
+
+        --subname  Spelling check for function names
+
 =head1 DESCRIPTION
 
 This is yet another spelling checker.

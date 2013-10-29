@@ -9,8 +9,6 @@ use Term::ANSIColor qw(colored);
 require Win32::Console::ANSI if $^O eq 'MSWin32';
 use PPI;
 
-use version; our $VERSION = version->declare("v0.3.1");
-
 sub new {
     my $class = shift;
     bless {
@@ -74,32 +72,3 @@ sub _show_error {
 }
 
 1;
-__END__
-
-=encoding utf-8
-
-=head1 NAME
-
-Spellunker::CLI::Perl - It's new $module
-
-=head1 SYNOPSIS
-
-    use Spellunker::CLI::Perl;
-
-=head1 DESCRIPTION
-
-Spellunker::CLI::Perl is ...
-
-=head1 LICENSE
-
-Copyright (C) tokuhirom.
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
-
-=head1 AUTHOR
-
-tokuhirom E<lt>tokuhirom@gmail.comE<gt>
-
-=cut
-

@@ -1,4 +1,4 @@
-requires 'perl', '5.008001';
+requires 'perl', '5.010001';
 requires 'Getopt::Long';
 requires 'Spellunker::Perl';
 requires 'Term::ANSIColor';

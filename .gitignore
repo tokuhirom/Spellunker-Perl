@@ -24,3 +24,8 @@ cover_db/
 MYMETA.*
 
 /Spellunker-CLI-Perl-*
+/Spellunker-Perl-*
+/.build
+/_build_params
+!Build/
+!META.json

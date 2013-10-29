@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Spelling checker for Perl script",
    "author" : [
       "tokuhirom <tokuhirom@gmail.com>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Spellunker-CLI-Perl",
+   "name" : "Spellunker-Perl",
    "no_index" : {
       "directory" : [
          "t",
@@ -43,7 +43,12 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Getopt::Long" : "0",
+            "Mouse" : "0",
+            "PPI" : "0",
+            "Spellunker::Perl" : "0",
+            "Term::ANSIColor" : "0",
+            "perl" : "5.010001"
          }
       },
       "test" : {
@@ -53,5 +58,5 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "version" : "v0.3.1"
 }

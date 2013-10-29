@@ -1,14 +1,18 @@
 # NAME
 
-Spellunker::CLI::Perl - It's new $module
+Spellunker::Perl - Spelling checker for Perl script
 
 # SYNOPSIS
 
-    use Spellunker::CLI::Perl;
+    use Spellunker::Perl;
+
+    my $spellunker = Spellunker::Perl->new_from_file('path/to/MyModule.pm');
+    my @err = $spellunker->check_comment();
+    use Data::Dumper; warn Dumper(@err);
 
 # DESCRIPTION
 
-Spellunker::CLI::Perl is ...
+Spellunker::Perl is Spelling checker for Perl script.
 
 # LICENSE
 

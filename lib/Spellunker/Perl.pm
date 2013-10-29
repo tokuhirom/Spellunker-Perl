@@ -4,6 +4,8 @@ use warnings;
 use utf8;
 use 5.010_001;
 
+use version; our $VERSION = version->declare("v0.3.1");
+
 use Spellunker;
 use PPI;
 
@@ -71,4 +73,36 @@ sub agument { }
 # template agument
 
 1;
+__END__
+
+=encoding utf-8
+
+=head1 NAME
+
+Spellunker::Perl - Spelling checker for Perl script
+
+=head1 SYNOPSIS
+
+    use Spellunker::Perl;
+
+    my $spellunker = Spellunker::Perl->new_from_file('path/to/MyModule.pm');
+    my @err = $spellunker->check_comment();
+    use Data::Dumper; warn Dumper(@err);
+
+=head1 DESCRIPTION
+
+Spellunker::Perl is Spelling checker for Perl script.
+
+=head1 LICENSE
+
+Copyright (C) tokuhirom.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+tokuhirom E<lt>tokuhirom@gmail.comE<gt>
+
+=cut
 
