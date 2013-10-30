@@ -1,6 +1,6 @@
 requires 'perl', '5.010001';
 requires 'Getopt::Long';
-requires 'Spellunker::Perl';
+requires 'Spellunker';
 requires 'Term::ANSIColor';
 requires 'PPI';
 requires 'Mouse';
