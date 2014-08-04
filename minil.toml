@@ -1,1 +1,2 @@
 name = "Spellunker-Perl"
+module_maker="ModuleBuildTiny"
